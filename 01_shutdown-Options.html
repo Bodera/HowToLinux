@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+<meta charset="UTF-8">
+	<title>GNU/Linux shutdown-Options</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/poppins" type="text/css"/> 
+    <!--page style properties-->
+    <style>
+    body {
+        font-family: 'PoppinsRegular';
+        font-weight: normal;
+        font-style: normal; 
+    }
+    </style>
+</head>
+<body>
+<h1>Os comandos deverão ser executado com privilégios elevados e suas opções são:</h1>
+
+<h2>Shutdown</h2>
+<h5> Agenda um tempo para o sistema ser desligado. Ele pode ser utilizado para travar, desligar ou reiniciar a máquina.</h5> 
+
+<ul>
+    <li>#shutdown   #Desliga a máquina com delay de 30 segundos </li>
+    <li>#shutdown now   #Desliga a máquina imediatamente </li>
+    <li>#shutdown 21:00  #Desliga a máquina no horário instruído </li>
+    <li>#shutdown -p    #Poweroff</li>
+    <li>#shutdown -H    #Halt</li>
+    <li>#shutdown -r    #Reinicia a máquina </li>
+    <li>#shutdown -r10:05   #Reinicia a máquina às 10:05AM</li>
+    <li>#shutdown -c    #Cancela um desligamento agendado </li>
+    <li>#shutdown -k    #Envia alertas sem reiniciar, poweroff ou halt</li>
+    <li>#shutdown --no-wall     #Não envia uma mensagem que bloqueia o monitor antes de halt, poweroff ou reinício</li>
+</ul>
+
+<h6>Se o argumento de tempo é usado, 5 minutos antes que o sistema desative, o arquivo /run/nologin é criado para garantir que o sistema não aceite mais logons.<h6>
+
+<h2>Halt</h2>
+<h5>Esse comando instrui o hardware a parar todas as funções de CPU sem desligar.</h5>
+<ul>
+    <li>#shutdown --halt    #Para a máquina</li>
+    <li>#hatl   #Também para a máquina</li>
+    <li>#halt -p    #Executa poweroff</li>
+    <li>#halt --reboot  #Reinicia a máquina</li>
+</ul>
+
+<h2>Poweroff</h2>
+<h5>A característica desse comando é que ele envia sinais ACPI com instruções para desligar o sistema.</h5>
+
+<ul>
+    <li>#poweroff   #Desliga a máquina</li>
+    <li>#poweroff --halt   #Executa um halt</li>
+    <li>#poweroff --reboot  #Reinicia a máquina</li>
+</ul>
+
+<h2>Reboot</h2>
+<h5>Reinicia o sistema e aceita opções comuns</h5>
+
+<ul>
+    <li>#reboot now</li>
+    <li>#reboot --halt</li>
+    <li>#reboot -p</li>
+</ul>
+
+</body>
+</HTML>
