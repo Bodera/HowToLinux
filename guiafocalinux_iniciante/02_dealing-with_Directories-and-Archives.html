@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<HTML>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>GNU/Linux dealing-with_Directories-and-Archives</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/poppins" type="text/css"/> 
+        <!--page style properties-->
+        <style>
+            body {
+                font-family: 'PoppinsRegular';
+                font-weight: normal;
+                font-style: normal; 
+            }
+        </style>
+    </head>
+    <body>
+        <p>Os comandos deverão ser executados com privilégios elevados apenas no caso de sua manipulação estiver restrita ao usuário mestre</p>
+        <!--cd-->
+        <h2>cd - Change Directoory </h2>
+        <h5>Instrui o shell para atuar em outra pasta. Para acesso aos arquivos protegidos ou ocultos é necessário privilégio <i>root</i>.</h5> 
+        <ul>
+            <li>$cd <i>Documents/MyBkp/Photos</i></li>
+        </ul>
+        <!--ls-->
+        <h2>ls - List Segments</h2>
+        <h5>Esse comando é usado para listar todos os segmentos do seu diretório atual no terminal. Enxergar pastas protegidas ou arquivos ocultos somente como usuário <i>root</i>.</h5> 
+        <ul>
+            <li>$ls -a    #Quando ls não é executado em modo super-usuário, este será útil para listar arquivos ocultos.</li>
+        </ul>
+        <!--pwd-->
+        <h2>pwd - Print Working Directory</h2>
+        <h5>O resultado desse comando imprimirá o caminho completo do atual direrório em operação no terminal.</h5>
+        <ul>
+            <li>$pwd</li>
+            <li><i>output</i>>/home/User/Documents/MyBkp/Photos</li>
+        </ul>
+        <!--cat-->
+        <h2>cat - Concatenate</h2>
+        <h5>Esse comando mostra o conteúdo de um binário ou arquivo de texto.</h5> 
+
+        <ul>
+            <li>$cat /etc/credentials #Exibe o conteúdo do arquivo.</li>
+            <li>$cat bomdia.txt boanoite.txt #Irá imprimir o conteúdo dos 2 arquivos.</li>
+            <li>$more some_huge_text_file #Exibe o conteúdo da mensagem com scroll habilitado.</li>
+            <li>$cat >novo.txt #Irá criar um novo arquivo do tipo texto.</li>
+            <li>$cat file0 file1 file2 > file3 #Combina 3 arquivos e gera um novo arquivo, irá sobrescrever arquivos com mesmo nome.</li>
+            <li>$cat -n code_file.rb #Exibe a quantidade de linhas impressas de um arquivo.</li>
+            <li>$cat -T houses.json #O parâmetro -T exibe o número de caracteres não impressos TAB.</li>
+            <li>$cat -t houses.sql #O parâmetro -t faz o mesmo que o -Tv, imprimindo a quantidade total de caracteres não impressos.</li>
+        </ul>
+        <!--extensões de arquivos-->
+        <h2>Extensões comuns em arquivos</h2>
+        <h5>Sabendo o tipo de arquivo facilitará a compreensão de suas características, importância, e opções de edição.</h5>
+        <ul>
+            <li>name.txt   #A nomenclatura .txt nos revela se tratar de um arquivo em texto pleno.</li>
+            <li>name.sh    #A nomenclatura .sh nos revela se tratar de um arquivo de script.</li>
+            <li>name.log   #A nomenclatura .log nos revela se tratar de um registro de algum programa existente no sistema.</li>
+            <li>name.gz    #A nomenclatura .gz nos revela se tratar de um arquivo compactado pelo utilitário gzip.</li>
+            <li>name.html   #A nomenclatura .html nos revela se tratar de um arquivo de Hypertexto.</li>
+        </ul>
+        <p>A extensão (na maioria dos casos) não é requerida pelo sistema operacional GNU/Linux, mas é conveniente o seu uso para determinarmos facilmente o tipo de arquivo e que programa precisaremos usar para abri-lo.</p>
+
+
+    </body>
+</HTML>
