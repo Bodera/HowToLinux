@@ -1,0 +1,1 @@
+Tecla de ação do windows ⌘
