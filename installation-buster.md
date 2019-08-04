@@ -101,17 +101,17 @@ GRUB_CMDLINE_LINUX_DEFAULT = "quite splash usbcore.autosuspend=-1"
 Save your alterations. Run `update-grub` as sudo. Reboot is required to changes make effect.
 
 
-__Qualcomm Atheros Bluetooth Headset just not connect. The bluetooth just not work!__
+__Qualcomm Atheros Bluetooth Headset just not connect. The Bluetooth just not work!__
 Yooooo this one almost drove me to alcoholism! Hahaha just pranking on you.
 
-Debian has a good documentation for bluetooth issues. The package for solve you problem can vary based on your choose desktop environment. [Take a look at it](https://wiki.debian.org/BluetoothUser).
+Debian has a good documentation for Bluetooth issues. The package for solve you problem can vary based on your choose desktop environment. [Take a look at it](https://wiki.debian.org/BluetoothUser).
 
 There they basically tells you to:
-1. Install bluetooth package.
-2. Check if bluetooth service are already running.
+1. Install Bluetooth package.
+2. Check if Bluetooth service are already running.
 2. Install a GUI tool based in your desktop environment.
 
-But I realized what is going on, yeah and I will tell it to you all, not going to keep any secret about this SHHHIAT!
+But I realized what is going on, yeah and I will tell it to you all, not going to keep any secret about this.
 
 #### Edit your sources list
 Forgot about that? Because I do. Let's go to the terminal and type:
@@ -127,7 +127,13 @@ Now just:
 # reboot now
 ```
 
-Less than 3Mb of data downloaded.
+Less than 3MB of data downloaded. And if in case you face some unexpected behavior on your Bluetooth adapter, you are able to troubleshoot this incident by shutting down the Bluetooth service and booting it in the sequence.
+
+```bash
+$ sudo systemctl status bluetooth #first check for the status
+$ sudo systemctl stop bluetooth #so then shut it down
+$ sudo systemclt start bluetooth #
+```
 
 ## Let's add some packages
 Here i list the packages/softwares added to support my work/studies.
