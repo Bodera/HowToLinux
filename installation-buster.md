@@ -136,7 +136,7 @@ $ sudo systemclt start bluetooth #
 ```
 
 ## Let's add some packages
-Here i list the packages/softwares added to support my work/studies.
+Here i list the packages/softwares added* to support my work/studies.
 
 1. Redshift
 2. Lyx
@@ -154,7 +154,7 @@ Here i list the packages/softwares added to support my work/studies.
 14. Vagrant
 15. Git
 16. Wireshark
-17. Genymotion
+17. Android Studio
 18. Insomnia Rest client
 19. UNetbootin
 20. Kanboard
@@ -168,9 +168,10 @@ Here i list the packages/softwares added to support my work/studies.
 28. Awesome WM
 29. Chromium
 30. Firefox-ESR
-31. Heroku (this is not for install...)
 32. Eclipse IDE for Java and Rust
-33. (this list can be updated)
+33. Remmina
+
+\**(this list can be updated)*
 
 KDE provides a extensive variety of tools. So I just need extra tools for development.
 
