@@ -11,9 +11,9 @@ A short document containing the most updated steps to install the required tools
 
 ## Procedures for installation
 
-1. [Android Studio v3.6](https://github.com/Bodera/learnPath_Debian/tree/Bodera-debian-dev/installation-steps-linux#android-studio)
-2. [Genymotion v3.1](https://github.com/Bodera/learnPath_Debian/tree/Bodera-debian-dev/installation-steps-linux#genymotion)
-3. [.NET Core v3.1](https://github.com/Bodera/learnPath_Debian/tree/Bodera-debian-dev/installation-steps-linux#net-core)
+1. [Android Studio v3.6](https://github.com/Bodera/learnPath_Debian/tree/Bodera-debian-dev/installation-steps-linux.md#android-studio)
+2. [Genymotion v3.1](https://github.com/Bodera/learnPath_Debian/tree/Bodera-debian-dev/installation-steps-linux.md#genymotion)
+3. [.NET Core v3.1](https://github.com/Bodera/learnPath_Debian/tree/Bodera-debian-dev/installation-steps-linux.md#net-core)
 
 ### Android Studio
 
