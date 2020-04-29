@@ -1,13 +1,49 @@
-gerenciadores de pacotes Linux:
+# Linux package managers:
 
-## O apt com dpkg
-Distros suportadas:
+## Apt with dpkg
 
-## Yum com RPM
-Distros suportadas:
+<history...>
+
+Examples of supported distros:
+
+* Debian
+* Raspbian
+* Kali
+* Ubuntu
+
+## Yum with rpm and DNF
+
+<history...>
+
+Examples of supported distros:
+
+* Fedora
+* CentOS
+* Red Hat
+* Slackware
 
 ## Pacman
-Distros suportadas:
 
-## snap!
+<history...>
 
+Examples of supported distros:
+
+* Arch
+* Parabola GNU
+* Manjaro
+* Chakra
+
+## Portage
+
+<history...>
+
+Examples of supported distros:
+
+* Gentoo
+* Pentoo
+
+## Snap! and AppImage
+
+<history...>
+
+Use cases:
